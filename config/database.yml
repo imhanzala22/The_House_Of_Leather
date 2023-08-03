@@ -24,6 +24,9 @@ default: &default
 development:
   <<: *default
   database: the_house_of_leather_development
+  port: 5432
+  username: hanzala
+  password: password
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
